@@ -1,0 +1,31 @@
+# Local project defaults. Review exclusions before staging.
+.DS_Store
+.mypka/
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials.*
+secrets.*
+*.pem
+*.key
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+dist/
+build/
+
+# Private inputs and derived local outputs
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.jsonl
+*.eml
+*.mbox
+/private/
+/output/
